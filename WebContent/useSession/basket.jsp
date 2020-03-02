@@ -67,8 +67,9 @@
       		
       		for(int i = 0;i<basketNo;i++){
       			pizzaList = (Pizza)session.getAttribute("pizNo"+i);
-      			out.print(pizzaList.getKind()+"<br>");
+      			out.print(pizzaList.getCount()+"<br>");
       		}
+      	
       	%>
       </td>
    </tr>
