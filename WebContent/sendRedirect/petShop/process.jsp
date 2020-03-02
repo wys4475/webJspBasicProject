@@ -13,7 +13,7 @@
 	String kind = request.getParameter("kind");
 	
 	response.sendRedirect(kind+".jsp"+"?dogName="+dogName+
-			"&Gender="+dogGender);
+			"&dogGender="+dogGender);
 %>
 </body>
 </html>
